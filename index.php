@@ -1,29 +1,44 @@
+<?php
+session_start();
+$_SESSION['username']="Vinit Mahajan";
+?>
 
 <!DOCTYPE html>
-<html>
-<head>
-<title>welcome tpo portal</title>
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Flat Buttons Submit Forms,Button hover effects,Tool tips, ancher link hover effects,Elements"./>
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
-</head>
-<body>
-    <div class="buttons">
-            <div class="span2">
-                <a href="questions/question.php">
-    		  <i>Ask a Question</i>
-    	       </a>
-            </div>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      
+    <script src="js/bootstrap.min.js"></script>
+     <!-- added boot files -->
+    <!-- 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    -->
+  </head>
+  <body>
+    <div class="row">
+        <div class="col-lg-12">
+            <a href="#" class="btn btn-danger" role="button">Ask a Question</a>        
+        </div>
     </div>
- 	<div class="submit-forms">
- 		  <form class="blue">
-			<input type="text" size="30px"  value="Enter your answer" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your answer';}">
-		            <input type="submit" value="Submit">
-		 </form>
-	</div>
-    
-</body>
+      
+    <form action="question.php" method="post">
+        <div class="form-group">
+            <label for="prnno">PRN NO:</label>
+            <input type="input" class="form-control" id="prnno" name="prnno">
+        </div>
+        <div class="form-group">
+            <label for="ques">QUESTION:</label>
+            <input type="input" class="form-control" id="ques" name="ques">
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </body>
 </html>
