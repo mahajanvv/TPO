@@ -1,9 +1,13 @@
 <?php
+<<<<<<< HEAD
 session_start();
 if( !isset($_SESSION['user']) )
 	echo "Not Logged in";
 else
 {
+=======
+
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 $conn=mysqli_connect('localhost','root','','tpo');
 $sql3="SELECT * FROM company_profile WHERE status = 1";
 $result=mysqli_query($conn, $sql3);
@@ -15,7 +19,11 @@ $count=mysqli_num_rows($result);
 <html lang="zxx">
 
 <head>
+<<<<<<< HEAD
 	<title>TPO</title>
+=======
+	<title>Treasurer a Corporate Category Bootstrap Responsive Website Template | Home :: w3layouts</title>
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 	<!-- custom-theme -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -142,9 +150,15 @@ div.demo-content input[type='text'],textarea{
 
 		<div class="w3l_header_left">
 			<ul>
+<<<<<<< HEAD
 				<li><i class="fa fa-map-marker" aria-hidden="true"></i>WCE,SANGLI</li>
 				<li><i class="fa fa-phone" aria-hidden="true"></i> +(010) 221 918 811</li>
 				<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@example.com">WCETPO@gmail.com</a></li>
+=======
+				<li><i class="fa fa-map-marker" aria-hidden="true"></i> 1143 New York, USA</li>
+				<li><i class="fa fa-phone" aria-hidden="true"></i> +(010) 221 918 811</li>
+				<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@example.com">info@example.com</a></li>
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 			</ul>
 		</div>
 		<div class="w3l_header_right">
@@ -166,6 +180,7 @@ div.demo-content input[type='text'],textarea{
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
+<<<<<<< HEAD
 				<h1><a class="navbar-brand" href="index.html"><i class="fa fa-crosshairs" aria-hidden="true"></i> WCE_TPO</a></h1>
 
 			</div>
@@ -174,6 +189,14 @@ div.demo-content input[type='text'],textarea{
 				<li><a href="#" data-toggle="modal" data-target="#myModal3"> NOTIFICATION</a> </li>
 				<li><a class="active" href="logout.php">LOGOUT</a> </li>
 
+=======
+				<h1><a class="navbar-brand" href="index.html"><i class="fa fa-crosshairs" aria-hidden="true"></i> Treasurer</a></h1>
+
+			</div>
+			<ul class="agile_forms">
+				<li><a class="active" href="#" data-toggle="modal" data-target="#myModal2"> Sign In</a> </li>
+				<li><a href="#" data-toggle="modal" data-target="#myModal3"> NOTIFICATION</a> </li>
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 			</ul>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -199,6 +222,41 @@ div.demo-content input[type='text'],textarea{
 
 		<div class="clearfix"> </div>
 	</div>
+<<<<<<< HEAD
+=======
+	<!-- Modal1 -->
+	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+					<div class="signin-form profile">
+						<h3 class="agileinfo_sign">Sign In</h3>
+						<div class="login-form">
+							<form action="#" method="post">
+								<input type="email" name="email" placeholder="E-mail" required="">
+								<input type="password" name="password" placeholder="Password" required="">
+								<div class="tp">
+									<input type="submit" value="Sign In">
+								</div>
+							</form>
+						</div>
+						<div class="login-social-grids">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+						<p><a href="#" data-toggle="modal" data-target="#myModal3"> Don't have an account?</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 	<!-- //Modal1 -->
 	<!-- Modal2 -->
 	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
@@ -232,10 +290,14 @@ div.demo-content input[type='text'],textarea{
 			</div>
 		</div>
 	</div>
+<<<<<<< HEAD
 	</div>
 
 		
 	</div>
+=======
+	
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 	<div class="banner">
 
 
@@ -290,18 +352,30 @@ div.demo-content input[type='text'],textarea{
 	<div class="banner-bottom">
 		<div class="container">
 			<div class="mid_agile_bannner_top_info">
+<<<<<<< HEAD
 				<h2>Let’s see WCE Placement Record</h2>
+=======
+				<h2>Let’s made Your own Business</h2>
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 				<div class="heading-underline">
 					<div class="h-u1"></div>
 					<div class="h-u2"></div>
 					<div class="h-u3"></div>
 					<div class="clearfix"></div>
 				</div>
+<<<<<<< HEAD
 				<p></p>
 			</div>
 			<div class="col-md-6 agileits_banner_bottom_left">
 				<h3>welcome to <span>WCE_TPO</span></h3>
 				<p class="w3l_para">Top recuriters with number of placed students</p>
+=======
+				<p>Lorem ipsum dolor sit amet, Lorem ipsum Lorem ipsum.Integer varius est vitae iaculis suscipit. Integer sed rutrum lectus.</p>
+			</div>
+			<div class="col-md-6 agileits_banner_bottom_left">
+				<h3>welcome to <span>Treasurer</span></h3>
+				<p class="w3l_para">Curabitur nec purus eget urna pulvinar placerat. Integer varius est vitae iaculis suscipit. Integer sed rutrum lectus.</p>
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 				<div class="w3l_social_icons">
 					<div class="w3l_social_icon_grid">
 						<div class="w3l_social_icon_gridl w3_facebook">
@@ -310,7 +384,11 @@ div.demo-content input[type='text'],textarea{
 							</a>
 						</div>
 						<div class="w3l_social_icon_gridr">
+<<<<<<< HEAD
 							<p class="counter">23</p>
+=======
+							<p class="counter">23,536</p>
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 						</div>
 						<div class="clearfix"> </div>
 						<div class="w3l_social_icon_grid_pos">
@@ -320,11 +398,19 @@ div.demo-content input[type='text'],textarea{
 					<div class="w3l_social_icon_grid w3ls_social_icon_grid">
 						<div class="w3l_social_icon_gridl w3_dribbble">
 							<a href="#">
+<<<<<<< HEAD
 								<i class="fa fa-dribbble" aria-hidden="true">TCS</i>
 							</a>
 						</div>
 						<div class="w3l_social_icon_gridr">
 							<p class="counter">1311</p>
+=======
+								<i class="fa fa-dribbble" aria-hidden="true"></i>
+							</a>
+						</div>
+						<div class="w3l_social_icon_gridr">
+							<p class="counter">13,676</p>
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 						</div>
 						<div class="clearfix"> </div>
 						<div class="w3l_social_icon_grid_pos">
@@ -334,11 +420,19 @@ div.demo-content input[type='text'],textarea{
 					<div class="w3l_social_icon_grid">
 						<div class="w3l_social_icon_gridl w3_instagram">
 							<a href="#">
+<<<<<<< HEAD
 								<i class="fa fa-instagram" aria-hidden="true">BPCL</i>
 							</a>
 						</div>
 						<div class="w3l_social_icon_gridr">
 							<p class="counter">450</p>
+=======
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</a>
+						</div>
+						<div class="w3l_social_icon_gridr">
+							<p class="counter">45,342</p>
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 						</div>
 						<div class="clearfix"> </div>
 						<div class="w3l_social_icon_grid_pos">
@@ -358,9 +452,15 @@ div.demo-content input[type='text'],textarea{
 			<div class="clearfix"> </div>
 		</div>
 	</div>
+<<<<<<< HEAD
 	 
 
 	<!-- banner-bottom-icons 
+=======
+	<!-- //banner-bottom -->
+
+	<!-- banner-bottom-icons -->
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 	<div class="banner-bottom-icons">
 		<div class="col-md-6 w3_banner_bottom_icons_left">
 
@@ -379,7 +479,11 @@ div.demo-content input[type='text'],textarea{
 		</div>
 		<div class="clearfix"> </div>
 	</div>
+<<<<<<< HEAD
 	
+=======
+	<!-- //banner-bottom-icons -->
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 
 	<div class="skills">
 		<div class="container">
@@ -412,8 +516,13 @@ div.demo-content input[type='text'],textarea{
 				<div class="clearfix"> </div>
 			</div>
 		</div>
+<<<<<<< HEAD
 	</div>-->
 	<!-- choose-us 
+=======
+	</div>
+	<!-- choose-us -->
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 	<div class="why-choose-agile">
 		<div class="container">
 			<h3 class="tittle_agile_w3 two">What We Do</h3>
@@ -529,17 +638,29 @@ div.demo-content input[type='text'],textarea{
 			</div>
 			<?php
 			  
+<<<<<<< HEAD
 	   				$sql="select * from company_profile ORDER BY com_date";
 	                $run=mysqli_query($conn,$sql);
 	                
 			?>
 			<div class="w3l-news_info_agile_its" >
 				<div class="col-md-6 w3l-news" style="overflow-y: scroll;height:800px;">
+=======
+	   				$sql="select * from company_profile";
+	                $run=mysqli_query($conn,$sql);
+	                
+			?>
+			<div class="w3l-news_info_agile_its">
+				<div class="col-md-6 w3l-news">
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 				<?php
 				while($row=mysqli_fetch_array($run))
 	                {
 				?>
+<<<<<<< HEAD
 				<form action="details.php" method="post">
+=======
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 					<div class="media response-info">
 						<div class="media-left response-text-left">
 							<a href="#" data-toggle="modal" data-target="#myModal">
@@ -556,6 +677,7 @@ div.demo-content input[type='text'],textarea{
 							<p>INTAKES:<?php echo $row['intakes'] ?></p>
 							<p>SALARY:<?php echo $row['salary'] ?></p>
 							<div class="read">
+<<<<<<< HEAD
 								<a href="10.pdf" target="_blank" class="view resw3">READ MORE</a>
 								<a href=""  class="view resw3" data-toggle="modal" data-target="#myModal4">REGISTER</a>
 								<br>
@@ -602,6 +724,13 @@ div.demo-content input[type='text'],textarea{
 			</div>
 		</div>
 	</div>
+=======
+								<a href="10.pdf" target="_blank" class="view resw3">Read More</a>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
 					<?php } ?>	
 					
 					<div class="clearfix"> </div>
@@ -1066,5 +1195,9 @@ div.demo-content input[type='text'],textarea{
 	<!-- //here ends scrolling icon -->
 </body>
 
+<<<<<<< HEAD
 </html>
 <?php } ?>
+=======
+</html>
+>>>>>>> 5bdd0544c1790e9fc80e42e78efd9dbfe8b02160
